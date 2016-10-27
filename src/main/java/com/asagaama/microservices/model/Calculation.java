@@ -16,7 +16,7 @@ public class Calculation {
      * @param input
      * @param output
      */
-    public Calculation(String function, List<String> input, List<String> output) {
+    public Calculation(List<String> input, List<String> output, String function) {
         this.setFunction(function);
         this.setInput(input);
         this.setOutput(output);
